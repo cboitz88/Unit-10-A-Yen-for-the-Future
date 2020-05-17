@@ -1,6 +1,6 @@
 # Time_Series_Analysis
 
-# Unit 10—A Yen for the Future
+## A Yen for the Future
 
 
 
@@ -8,7 +8,7 @@
 
 The financial departments of large companies often deal with foreign currency transactions while doing international business. As a result, they are always looking for anything that can help them better understand the future direction and risk of various currencies. Hedge funds, too, are keenly interested in anything that will give them a consistent edge in predicting currency movements.
 
-In this assignment, you will test the many time-series tools that you have learned in order to predict future movements in the value of the Japanese yen versus the U.S. dollar.
+In this repository, we will test the many time-series tools that we have learned in order to predict future movements in the value of the Japanese yen versus the U.S. dollar.
 
 You will gain proficiency in the following tasks:
 
@@ -28,17 +28,17 @@ You will gain proficiency in the following tasks:
 
 - - -
 
-### Instructions
+
 
 #### Time-Series Forecasting
 
-In this notebook, you will load historical Dollar-Yen exchange rate futures data and apply time series analysis and modeling to determine whether there is any predictable behavior.
+In this notebook, we will load historical Dollar-Yen exchange rate futures data and apply time series analysis and modeling to determine whether there is any predictable behavior to forecast future prices.
 
-Follow the steps outlined in the time-series starter notebook to complete the following:
+We will take the following the steps outlined in the time-series starter notebook to complete the following:
 
 1. Decomposition using a Hodrick-Prescott Filter (Decompose the Settle price into trend and noise).
-2. Forecasting Returns using an ARMA Model.
-3. Forecasting the Settle Price using an ARIMA Model.
+2. Forecasting Returns using an ARMA Model. **(Stationary)**
+3. Forecasting the Settle Price using an ARIMA Model. **(Non-Stationary)**
 4. Forecasting Volatility with GARCH.
 
 Use the results of the time series analysis and modeling to answer the following questions:
