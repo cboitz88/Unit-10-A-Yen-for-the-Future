@@ -6,14 +6,18 @@
 
 ## Background
 
-The financial departments of large companies often deal with foreign currency transactions while doing international business. As a result, they are always looking for anything that can help them better understand the future direction and risk of various currencies. Hedge funds, too, are keenly interested in anything that will give them a consistent edge in predicting currency movements.
+The financial departments of large companies often deal with foreign currency transactions while doing international business. As a result, they are always looking for anything that can help them better understand the future direction and risk of various currencies.
 
-In this repository, we will test the many time-series tools that we have learned in order to predict future movements in the value of the Japanese yen versus the U.S. dollar.
+Hedge funds are also keenly interested in anything that will give them a consistent edge in predicting currency movements.
 
-You will gain proficiency in the following tasks:
+ In this repository, we will test the many time-series tools that we have learned in order to predict future movements in the value of the Japanese yen versus the U.S. dollar.
 
-1. Time Series Forecasting
-2. Linear Regression Modeling
+The following tasks will be tested to see if we can form an edge in predicting currency trends:
+
+1.Decomposition using a Hodrick-Prescott Filter: This will allow us to decompose the price of the Yen into trend and noise and filter out short term fluctuations.
+2. Forecasting using an ARMA Model: Auto-regressive Moving Average models allows us to predict future values based on past values at a specific lag.
+3. Forecasting using an ARIMA Model: ARIMA models can take non-stationary data and predict future values without having to seperate the "noise" from the "trend".
+4. Forecasting Volatility using GARCH models: Generalized Autoregressive Conditional Heteroskedasticity models allow us to predit near term volatility.
 
 
 - - -
