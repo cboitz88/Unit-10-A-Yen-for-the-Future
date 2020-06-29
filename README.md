@@ -39,7 +39,7 @@ Using these techniques we will try to see if we can predict future movements in 
 
 In this notebook, we will load historical Dollar-Yen exchange rate futures data and apply time series analysis and modeling to determine whether there is any predictable behavior to forecast future prices.
 
-![yen_futures_whole.jpg](Images/yen_futures_whole.jpg)
+![yen_futures_whole.jpg](Images/yen_futures_whole.png)
 
 We will take the following the steps outlined in the time-series starter notebook to complete the following:
 
