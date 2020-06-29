@@ -19,14 +19,15 @@ The following tasks will be tested to see if we can form an edge in predicting c
 3. Forecasting using an ARIMA Model: ARIMA models can take non-stationary data and predict future values without having to seperate the "noise" from the "trend".
 4. Forecasting Volatility using GARCH models: Generalized Autoregressive Conditional Heteroskedasticity models allow us to predit near term volatility.
 
+Using these techniques we will try to see if we can predict future movements in the Japanese Yen.
 
 - - -
 
 ### Files
 
-[Time-Series Starter Notebook](Starter_Code/time_series_analysis.ipynb)
+[Time-Series Notebook](Starter_Code/time_series_analysis.ipynb) This file contains The Hodrick-Prescott Filter, ARMA modeling, ARIMA modeling & GARCH modeling
 
-[Linear Regression Starter Notebook](Starter_Code/regression_analysis.ipynb)
+[Linear Regression Notebook](Starter_Code/regression_analysis.ipynb) This file contains a Linear Regression model 
 
 [Yen Data CSV File](Starter_Code/yen.csv)
 
@@ -37,6 +38,8 @@ The following tasks will be tested to see if we can form an edge in predicting c
 #### Time-Series Forecasting
 
 In this notebook, we will load historical Dollar-Yen exchange rate futures data and apply time series analysis and modeling to determine whether there is any predictable behavior to forecast future prices.
+
+![yen_futures_whole.jpg](Images/yen_futures_whole.jpg)
 
 We will take the following the steps outlined in the time-series starter notebook to complete the following:
 
