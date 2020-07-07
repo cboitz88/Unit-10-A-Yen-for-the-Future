@@ -37,11 +37,19 @@ Using these techniques we will try to see if we can predict future movements in 
 
 #### Time-Series Forecasting
 
-In this notebook, we will load historical Dollar-Yen exchange rate futures data and apply time series analysis and modeling to determine whether there is any predictable behavior to forecast future prices.
+In this notebook, we will load historical Dollar-Yen exchange rate futures data and apply time series analysis and modeling to determine whether there is any predictable behavior to forecast future prices. Below you have our complete set of Dollar-Yen Settle Prices dating back to 1990. We will be using this data to test these new techniques we learned.
 
 ![yen_futures_whole.jpg](Images/yen_futures_whole.png)
 
-We will take the following the steps outlined in the time-series starter notebook to complete the following:
+The first technique we will perform is the Hodrick-Prescott Filter to decompose the trend from the noise. This will allow us to see if there are any long term trends to follow in this relationship. We will start by seperating the noise from the trend. After toying with the lambda settings, we found one that would smooth out the noise and give us a clear view of the trend.
+
+![HP_filter.jpg](Images/HP_filter.png)
+ 
+ In the below plot of the Yen Futures, we can see that Trend line (yellow) follows the overall trend without being overly sensitive to the noise of the daily swings in price.
+
+![plot](Images/plot.png)
+
+
 
 1. Decomposition using a Hodrick-Prescott Filter (Decompose the Settle price into trend and noise).
 2. Forecasting Returns using an ARMA Model. **(Stationary)**
