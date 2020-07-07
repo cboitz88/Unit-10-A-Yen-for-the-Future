@@ -47,7 +47,7 @@ The first technique we will perform is the Hodrick-Prescott Filter to decompose 
  
  In the below plot of the Yen Futures, we can see that Trend line (yellow) follows the overall trend without being overly sensitive to the noise of the daily swings in price.
 
-![plot](Images/plot.png)
+![plot](Images/plot2.png)
 
 
 
