@@ -49,6 +49,9 @@ The first technique we will perform is the Hodrick-Prescott Filter to decompose 
 
 ![plot](Images/plot2.png)
 
+The HP Filter can also give us a visualization of where the most noise is on this chart. These spots can be correllated with volatile periods in the market.
+
+![Noise](Images/noise.png)
 
 
 1. Decomposition using a Hodrick-Prescott Filter (Decompose the Settle price into trend and noise).
